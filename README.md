@@ -1,5 +1,5 @@
-# First Full Production App 
-#### - Built entirely by myself
+# App Still in Production 
+#### - Built entirely by myself (over winter break)
 #### - Written in Dart using the Flutter App Development Framework
 ###### - full app not uploaded but lib folder has all core files
 #
