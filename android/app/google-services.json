@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "264150775538",
+    "firebase_url": "https://doxa-1.firebaseio.com",
+    "project_id": "doxa-1",
+    "storage_bucket": "doxa-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264150775538:android:d49a2da736fdf028",
+        "android_client_info": {
+          "package_name": "com.yourcompany.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264150775538-pfvs7q44dvdutsbf3s1l3iqfa6cfgkmi.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "264150775538-pfvs7q44dvdutsbf3s1l3iqfa6cfgkmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoF_dbCwkruICN7KaBq3sD6gQrxOv7tVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
