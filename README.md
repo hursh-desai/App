@@ -1,4 +1,4 @@
 # First Full Production App 
-###### - Built entirely by Myself
+###### - Built entirely by myself
 ###### - Written in Dart using the Flutter App Development Framework
 ###### - Only uploaded lib folder
