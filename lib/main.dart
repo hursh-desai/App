@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'login.dart';
 
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
           secondaryHeaderColor: const Color(0xFF212121),
           accentColor: const Color(0xFF64ffda),
           canvasColor: const Color(0xFF303030),
-          brightness: Brightness.light),
+          brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,
       home: Login(),
     );

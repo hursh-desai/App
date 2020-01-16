@@ -1,6 +1,6 @@
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'login.dart';
-import 'names.dart';
+import 'names1.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class HomePage extends StatelessWidget {
@@ -26,7 +26,6 @@ class HomePage extends StatelessWidget {
             ),
             ListTile(
               title: new Text('Logout'),
-              trailing: new Icon(Icons.subdirectory_arrow_left),
               onTap: () {
                 _navigateBackToPage(context);
               },
@@ -39,24 +38,12 @@ class HomePage extends StatelessWidget {
         title: new Text('Doxa'),
         centerTitle: true,
       ),
-      body: Names(
-        doc: doc,
+      body: Theme(
+        data: ThemeData(brightness: Brightness.light),
+        child: Names(
+          doc: doc,
+        ),
       ),
-      // bottomNavigationBar: BottomNavigationBar(
-      //   type: BottomNavigationBarType.fixed,
-      //   currentIndex: 1,
-      //   items: [
-      //     BottomNavigationBarItem(
-      //         title: Text('Up'), icon: Icon(Icons.trending_up)),
-      //     BottomNavigationBarItem(
-      //         title: Text('Flat'), icon: Icon(Icons.trending_flat)),
-      //     BottomNavigationBarItem(
-      //         title: Text('Down'), icon: Icon(Icons.trending_down)),
-      //   ],
-      //   onTap: (index) {
-      //     if (index == 0) {}
-      //   },
-      // ),
     );
   }
 }
