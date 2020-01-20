@@ -34,7 +34,7 @@ class Names extends StatelessWidget {
                           ),
                           Container(
                             child: Buttons(
-                              document: snapshot.data.documents[index],
+                              ment: snapshot.data.documents[index],
                             ),
                           )
                         ],
